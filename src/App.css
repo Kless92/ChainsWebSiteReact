@@ -40,3 +40,15 @@
 .footer-site {
   border: 4px solid black
 }
+
+.reSize{
+  width: 200px;
+}
+
+.price-border{
+  width: 40%;
+  padding:10px;
+  border: 10px solid;
+  margin: 10px auto;
+  background-color: white;
+}
