@@ -23,7 +23,7 @@ const Header = () => {
                         </NavItem>
                         <NavItem className='link-box'>
                             <NavLink className='nav-link' to='/store'>
-                                <i className='fa fa-home fa-lg' />Store
+                                <i className='fa fa-home fa-lg' /> Store
                             </NavLink>
                         </NavItem>
                         <NavItem className='link-box'>
