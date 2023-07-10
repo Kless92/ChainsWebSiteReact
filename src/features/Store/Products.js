@@ -13,7 +13,6 @@ const Products = () => {
 
                 <thead>
                     <tr>
-                        
                         <th>Prouducts</th>
                         <th>Pricing</th>
                     </tr>

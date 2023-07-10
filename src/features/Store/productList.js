@@ -4,7 +4,7 @@ const proudctsList = () => {
     const products = selectAllProudcts();
 
     return (
-        <tbody>
+        <tbody class="price-border">
             {products.map((product) => {
                 const { image, name, price, bundle} = product;
                 return (
