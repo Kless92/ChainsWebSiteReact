@@ -13,6 +13,12 @@ const Footer = () => {
                             <Link to='/'>Home</Link>
                         </li>
                         <li>
+                            <Link to='/program'>Program</Link>
+                        </li>
+                        <li>
+                            <Link to='/story'>Story</Link>
+                        </li>
+                        <li>
                             <Link to='/store'>Store</Link>
                         </li>
                         <li>
@@ -33,6 +39,12 @@ const Footer = () => {
                         href='https://www.facebook.com/groups/393039416283624'
                     >
                         <i className='fa fa-facebook' />
+                    </a>{' '}
+                    <a
+                        className='btn btn-social-icon btn-google'
+                        href='https://www.youtube.com'
+                    >
+                        <i className='fa fa-youtube' />
                     </a>{' '}
                 </Col>
                 <Col sm='4'>
