@@ -1,9 +1,9 @@
 import { Container } from "reactstrap";
-
+import StoryCompoenent from "../features/story/storyComponent";
 const Story = () => {
     return (
         <Container>
-            Fill in info later 2222
+            <StoryCompoenent/>
         </Container>
     )
 };
