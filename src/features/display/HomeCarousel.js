@@ -6,24 +6,30 @@ import {
   CarouselIndicators,
   CarouselCaption
 } from 'reactstrap';
-import Chan from '../../app/assets/imag/image1.jpg';
-import test1 from '../../app/assets/imag/IMG_4266.jpg';
-import test2 from '../../app/assets/imag/IMG_4267.jpg';
+import imagOne from '../../app/assets/imag/IMG_7885.JPG';
+import imagTwo from '../../app/assets/imag/IMG_7896.JPG';
+import imagThr from '../../app/assets/imag/IMG_7876.JPG';
+import imagFou from '../../app/assets/imag/IMG_8734.JPG'
 const items = [
   {
-    src: Chan,
+    src: imagOne,
     altText: 'Slide 1',
     caption: 'Slide 1'
   },
   {
-    src: test1,
+    src: imagTwo,
     altText: 'Slide 2',
     caption: 'Slide 2'
   },
   {
-    src: test2,
+    src: imagThr,
     altText: 'Slide 3',
     caption: 'Slide 3'
+  },
+  {
+    src: imagFou,
+    altText: 'Slide 4',
+    caption: 'Slide 4'
   }
 ];
 
@@ -73,7 +79,7 @@ class HomeCarousel extends Component {
           onExited={this.onExited}
           key={item.src}
         >
-          <img src={item.src} alt={item.altText} class='reSize'/>
+          <img src={item.src} alt={item.altText} class='carouselSize'/>
           <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
         </CarouselItem>
       );
