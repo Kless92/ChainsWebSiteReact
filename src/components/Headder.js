@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Navbar, NavbarBrand, Collapse, NavbarToggler, Nav, NavItem, Row, Col } from 'reactstrap';
+import { Navbar, NavbarBrand, Collapse, NavbarToggler, Nav, NavItem, Row} from 'reactstrap';
 import { NavLink } from 'react-router-dom';
 import Logo from '../app/assets/imag/image2.png';
 
@@ -32,12 +32,17 @@ const Header = () => {
                         </NavItem>
                         <NavItem className='link-box'>
                             <NavLink className='nav-link' to='/store'>
-                                <i className='fa fa-shopping-cart fa-lg' /> Store
+                                <i className='fa  fa-shopping-bag' /> Store
                             </NavLink>
                         </NavItem>
                         <NavItem className='link-box'>
                             <NavLink className='nav-link' to='/contact'>
                                 <i className='fa fa-address-card fa-lg' /> Contact
+                            </NavLink>
+                        </NavItem>
+                        <NavItem className='link-box'>
+                            <NavLink className='nav-link' to='/cart'>
+                                <i className='fa fa-shopping-cart fa-lg' /> Cart
                             </NavLink>
                         </NavItem>
                     </Nav>
