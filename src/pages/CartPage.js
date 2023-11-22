@@ -5,7 +5,9 @@ import { ShopContext } from '../app/context/shop-context';
 import CartItem from "../features/cart/cartItem";
 
 const Cart = () => {
-    const {cartItems, removeFromCart} = useContext(ShopContext)
+    const {cartItems, getTotalCartAmount} = useContext(ShopContext)
+    const totalAmount = getTotalCartAmount()
+
     return (
         <Container>
             <div className='cart'>
@@ -18,6 +20,12 @@ const Cart = () => {
                     }
                 })}
             </div>
+            {totalAmount > 0 ? ( 
+                <div className="checkout">
+                    <p> Subtotal: ${totalAmount}</p>
+                    <button> Checkout </button>
+                </div>
+            ): (<h1> Cart is Empty </h1>)}
         </Container>
     )
 };

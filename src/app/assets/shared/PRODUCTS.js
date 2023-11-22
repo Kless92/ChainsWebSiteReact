@@ -16,76 +16,89 @@ export const PRODUCTS = [
         name: 'Book Marks',
         image: bookMarks,
         price: '$1.00',
-        bundle: '5 for $4.00'
+        bundle: '5 for $4.00',
+        priceNum: 1
     },
     {
         id: 1,
         name: 'Bird Seeds',
         image: birdSeads,
         price: '$4.00',
-        bundle: '2 for $7.00'
+        bundle: '2 for $7.00',
+        priceNum: 4
     },
     {
         id: 2,
         name: 'Car Freshiess',
         image: Freshies,
         price: '$4.00',
-        bundle: '2 for $7.00'
+        bundle: '2 for $7.00',
+        priceNum: 4
     },
     {
         id: 3,
         name: 'Gift Tages',
         image: giftTags,
         price: '12 for $5.00',
-        bundle: '24 for $8.00'
+        bundle: '24 for $8.00',
+        priceNum: 5
+
     },
     {
         id: 4,
         name: 'Gift Tages',
         image: giftTags2,
         price: '12 for $5.00',
-        bundle: '24 for $8.00'
+        bundle: '24 for $8.00',
+        priceNum: 5
     },
     {
         id: 5,
         name: 'Blank Cards',
         image: blankCards,
         price: 'Pack of 6 for $6.00',
-        bundle: '2 packs of 6 for $10.00'
+        bundle: '2 packs of 6 for $10.00',
+        priceNum: 6
+
     },
     {
         id: 6,
         name: 'Foot Scrubs',
         image: bodyAndBath,
         price: '$3.00',
-        bundle: '2 for $5.00\n3 for $8.00'
+        bundle: '2 for $5.00\n3 for $8.00',
+        priceNum: 3
     },
     {
         id: 7,
         name: 'Bath Sailts',
         image: bodyAndBath2,
         price: '$3.00',
-        bundle: '2 for $5.00\n3 for $8.00'
+        bundle: '2 for $5.00\n3 for $8.00',
+        priceNum: 3
     },
     {
         id: 8,
         name: 'Body Scrubs',
         image: bodyAndBath3,
         price: '$3.00',
-        bundle: '2 for $5.00\n3 for $8.00'
+        bundle: '2 for $5.00\n3 for $8.00',
+        priceNum: 3
     },
     {
         id: 9,
         name: 'Bath Bombs',
         image: bodyAndBath4,
         price: '$3.00',
-        bundle: '2 for $5.00\n3 for $8.00'
+        bundle: '2 for $5.00\n3 for $8.00',
+        priceNum: 3
     },
     {
         id: 10,
         name: 'Soaps',
         image: bodyAndBath5,
         price: '$3.00',
-        bundle: '2 for $5.00\n3 for $8.00'
+        bundle: '2 for $5.00\n3 for $8.00',
+        priceNum: 3
     }
 ];
