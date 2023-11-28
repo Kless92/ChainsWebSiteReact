@@ -11,7 +11,6 @@ const ProudctsList = () => {
             {products.map((product) => {
                 const { id, image, name, price, bundle} = product;
                 const cartItemAmount = cartItems[id]
-                
                 return (
                     <tr>
                         <td>
@@ -22,7 +21,13 @@ const ProudctsList = () => {
                         <td>
                             {price}
                             <br/>
-                            {bundle}
+                            <button className="addToCartButton" onClick={() => addToCart(id)}>
+                                <i className='fa fa-shopping-cart fa-lg'/>
+                                Add To Cart {cartItemAmount > 0 && <>({cartItemAmount})</>}
+                            </button>
+                        </td>
+                        <td>
+                        {bundle}
                             <br/>
                             <button className="addToCartButton" onClick={() => addToCart(id)}>
                                 <i className='fa fa-shopping-cart fa-lg'/>

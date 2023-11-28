@@ -15,6 +15,7 @@ const Products = () => {
                     <tr>
                         <th>Prouducts</th>
                         <th>Pricing</th>
+                        <th>Bundles</th>
                     </tr>
                 </thead>
                 <ProudctsList />

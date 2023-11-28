@@ -15,14 +15,15 @@ export const ShopContextProvider = (props) => {
 
     const getTotalCartAmount = () => {
         let totalAmount = 0;
+        let sTax = 0.0825;
         for (const item in cartItems) {
             if (cartItems[item] > 0) {
                 let itemInfo = PRODUCTS.find((products) => products.id === Number(item));
-                totalAmount += cartItems[item] * itemInfo.priceNum
+                totalAmount += cartItems[item] * itemInfo.priceNum;
             }
         }
-        return totalAmount;
-        
+        totalAmount =(totalAmount*sTax)+totalAmount
+        return totalAmount.toFixed(2);
     };
 
     const addToCart = (itemId) => {

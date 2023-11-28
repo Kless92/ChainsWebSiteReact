@@ -9,9 +9,8 @@ import bodyAndBath2 from '../imag/IMG_4271.jpg'
 import bodyAndBath3 from '../imag/IMG_4464.jpg'
 import bodyAndBath4 from '../imag/IMG_4465.jpg'
 import bodyAndBath5 from '../imag/IMG_4267.jpg'
-import candles from '../imag/IMG_4267.jpg'
-import bodyButter from '../imag/IMG_4267.jpg'
-import lipBalm from '../imag/IMG_4267.jpg'
+import candles from '../imag/image6.jpeg'
+import lipBalm from '../imag/image0.jpeg'
 
 export const PRODUCTS = [
     {
@@ -20,7 +19,7 @@ export const PRODUCTS = [
         image: bookMarks,
         price: '$1.00',
         bundle: '5 for $4.00',
-        priceNum: 1
+        priceNum: 1,
     },
     {
         id: 1,
@@ -28,7 +27,7 @@ export const PRODUCTS = [
         image: birdSeads,
         price: '$6.50',
         bundle: '2 for $12.00',
-        priceNum: 4
+        priceNum: 6.50
     },
     {
         id: 2,
@@ -44,7 +43,7 @@ export const PRODUCTS = [
         image: giftTags,
         price: '12 for $5.00',
         bundle: '24 for $8.00',
-        priceNum: 5
+        priceNum: .42
 
     },
     {
@@ -113,14 +112,6 @@ export const PRODUCTS = [
         priceNum: 6
     },
     {
-        id: 11,
-        name: 'Whipped Body Butter',
-        image: bodyButter,
-        price: '2.2oz $4.00',
-        bundle: '',
-        priceNum: 4
-    },
-    {
         id: 12,
         name: 'Lip Balm',
         image: lipBalm,
@@ -128,5 +119,4 @@ export const PRODUCTS = [
         bundle: '',
         priceNum: 3
     }
-    
 ];
