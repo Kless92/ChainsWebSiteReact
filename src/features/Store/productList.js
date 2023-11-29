@@ -21,14 +21,9 @@ const ProudctsList = () => {
                         <td>
                             {price}
                             <br/>
-                            <button className="addToCartButton" onClick={() => addToCart(id)}>
-                                <i className='fa fa-shopping-cart fa-lg'/>
-                                Add To Cart {cartItemAmount > 0 && <>({cartItemAmount})</>}
-                            </button>
+                            {bundle}
                         </td>
                         <td>
-                        {bundle}
-                            <br/>
                             <button className="addToCartButton" onClick={() => addToCart(id)}>
                                 <i className='fa fa-shopping-cart fa-lg'/>
                                 Add To Cart {cartItemAmount > 0 && <>({cartItemAmount})</>}
