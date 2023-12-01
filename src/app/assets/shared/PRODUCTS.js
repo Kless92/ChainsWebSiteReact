@@ -21,8 +21,8 @@ export const PRODUCTS = [
         price: '$1.00',
         bundle: '5 for $4.00',
         priceNum: 1,
-        bunOne: 1,
-        bunTwo: 1
+        bunOne: 2,
+        bunTwo: 3
     },
     {
         id: 1,
