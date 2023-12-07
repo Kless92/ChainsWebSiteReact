@@ -6,7 +6,7 @@ const Contact = () => {
             <Table>
                 <thead>
                     <tr>
-                        <td>Address</td>
+                        <td>Physical Address</td>
                         <td>Contact</td>
                     </tr>
                 </thead>
@@ -18,14 +18,7 @@ const Contact = () => {
                     <tr>
                         <td>Suite 104-105</td>
                         <td>
-                            <a
-                                role='button'
-                                className='btn btn-link'
-                                href='tel:+9072302234'
-                            >
-                                <i className='fa fa-phone' />
-                                907-230-2234
-                            </a>
+                            907 Linwood Dr. Denton, Tx 76209
                         </td>
                     </tr>
                     <tr>
@@ -36,12 +29,24 @@ const Contact = () => {
                                 className='btn btn-link'
                                 href='mailto:autismatworkllc@gmail.com'
                             >
+                                <i className='fa fa-phone' />
+                                907-230-2234
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>76021</td>
+                        <td>
+                            <a
+                                role='button'
+                                className='btn btn-link'
+                                href='tel:+9072302234'
+                            >
                                 <i className='fa fa-envelope-o' />
                                 autismatworkllc@gmail.com
                             </a>
                         </td>
                     </tr>
-                    <tr><td>76021</td></tr>
                 </tbody>
             </Table>
         </Container>

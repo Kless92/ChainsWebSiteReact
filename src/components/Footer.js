@@ -42,7 +42,7 @@ const Footer = () => {
                     </a>{' '}
                     <a
                         className='btn btn-social-icon btn-github'
-                        href='https://www.youtube.com'
+                        href='https://www.tiktok.com/@autismatworkllc'
                     >
                         <i className='fa-brands fa-tiktok' />
                     </a>{' '}

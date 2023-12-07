@@ -9,7 +9,15 @@ import {
 import imagOne from '../../app/assets/imag/IMG_7885.JPG';
 import imagTwo from '../../app/assets/imag/IMG_7896.JPG';
 import imagThr from '../../app/assets/imag/IMG_7876.JPG';
-import imagFou from '../../app/assets/imag/IMG_8734.JPG'
+import imagFou from '../../app/assets/imag/IMG_8734.JPG';
+import imagFive from '../../app/assets/imag/IMG_8205.JPG';
+import imagSix from '../../app/assets/imag/IMG_8206.PNG';
+import imagSev from '../../app/assets/imag/IMG_8207.PNG';
+import imagEig from '../../app/assets/imag/IMG_8208.PNG';
+import imagNine from '../../app/assets/imag/IMG_8210.PNG';
+import imagTen from '../../app/assets/imag/IMG_8212.PNG';
+import imagElev from '../../app/assets/imag/IMG_8213.PNG';
+
 const items = [
   {
     src: imagOne,
@@ -30,7 +38,42 @@ const items = [
     src: imagFou,
     altText: 'Slide 4',
     caption: 'Slide 4'
-  }
+  },
+  {
+    src: imagFive,
+    altText: 'Slide 5',
+    caption: 'Slide 5'
+  },
+  {
+    src: imagSix,
+    altText: 'Slide 6',
+    caption: 'Slide 6'
+  },
+  {
+    src: imagSev,
+    altText: 'Slide 7',
+    caption: 'Slide 7'
+  },
+  {
+    src: imagEig,
+    altText: 'Side 8',
+    caption: 'Slide 8'
+  },
+  {
+    src: imagNine,
+    altText: 'Slide 9',
+    caption: 'Slide 9'
+  },
+  {
+    src: imagTen,
+    altText: 'Slide 10',
+    caption: 'Slide 10'
+  },
+  {
+    src: imagElev,
+    altText: 'Slide 11',
+    caption: 'Slide 11'
+  },
 ];
 
 class HomeCarousel extends Component {
