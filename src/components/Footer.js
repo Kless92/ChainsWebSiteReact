@@ -32,19 +32,19 @@ const Footer = () => {
                         className='btn btn-social-icon btn-instagram'
                         href='https://www.instagram.com/autism_at_work/'
                     >
-                        <i className='fa fa-instagram' />
+                        <i className='fa-brands fa-instagram' />
                     </a>{' '}
                     <a
                         className='btn btn-social-icon btn-facebook'
                         href='https://www.facebook.com/groups/393039416283624'
                     >
-                        <i className='fa fa-facebook' />
+                        <i className='fa-brands fa-facebook' />
                     </a>{' '}
                     <a
-                        className='btn btn-social-icon btn-google'
+                        className='btn btn-social-icon btn-github'
                         href='https://www.youtube.com'
                     >
-                        <i className='fa fa-youtube' />
+                        <i className='fa-brands fa-tiktok' />
                     </a>{' '}
                 </Col>
                 <Col sm='4'>

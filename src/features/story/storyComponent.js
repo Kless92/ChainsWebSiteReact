@@ -10,11 +10,18 @@ const storyCompoenent = () => {
                     </Col>
                     <Col>
                         <CardText style={{alignItems: 'center', display: 'flex', height: "100%"}}>
-                            Put Story Text Here!Put Story Text Here!Put Story Text Here!
-                            Put Story Text Here!Put Story Text Here!Put Story Text Here!
-                            Put Story Text Here!Put Story Text Here!Put Story Text Here!
-                            Put Story Text Here!Put Story Text Here!Put Story Text Here!
-                            Put Story Text Here!Put Story Text Here!Put Story Text Here!
+                        Autism at Work, LLC is a safe and supportive program where adults with autism 
+                        are taught vocational, self help, daily living, and skills that can support 
+                        independence.   The program is tailored to meet the needs of each and every 
+                        individual that participates. 
+
+                        Everyone is supported, focusing on independence and success both on campus
+                        and in the community. 
+
+                        Our mission is to not only help individuals find enjoyment within their 
+                        community by being understood and accepted but to also help them find 
+                        enjoyment and acceptance within themselves.  
+
                         </CardText>
                     </Col>
                 </Row>
