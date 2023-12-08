@@ -19,6 +19,7 @@ const Products = () => {
                     </tr>
                 </thead>
                 <ProudctsList />
+                <h3>For a customize gift box, please contact the number or email below or on contact page.</h3>
             </Table>
         </>
     )

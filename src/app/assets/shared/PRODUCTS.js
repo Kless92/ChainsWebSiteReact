@@ -12,11 +12,12 @@ import bodyAndBath5 from '../imag/IMG_4267.jpg'
 import candles from '../imag/image6.jpeg'
 import cnadles2 from '../imag/IMG_7879.JPG'
 import lipBalm from '../imag/image0.jpeg'
+import giftBox from '../imag/IMG_8219.PNG'
 
 export const PRODUCTS = [
     {
         id: 0,
-        name: 'Book Marks',
+        name: 'Bookmarks',
         image: bookMarks,
         price: '$1.00',
         bundle: '5 for $4.00',
@@ -26,7 +27,7 @@ export const PRODUCTS = [
     },
     {
         id: 1,
-        name: 'Bird Seeds',
+        name: 'Bird Seed',
         image: birdSeads,
         price: '$6.50',
         bundle: '2 for $12.00',
@@ -36,7 +37,7 @@ export const PRODUCTS = [
     },
     {
         id: 2,
-        name: 'Car Freshiess',
+        name: 'Car Freshies',
         image: Freshies,
         price: '$4.00',
         bundle: '2 for $7.00',
@@ -46,7 +47,7 @@ export const PRODUCTS = [
     },
     {
         id: 3,
-        name: 'Gift Tages',
+        name: 'Gift Tags',
         image: giftTags,
         price: '12 for $5.00',
         bundle: '24 for $8.00',
@@ -56,7 +57,7 @@ export const PRODUCTS = [
     },
     {
         id: 4,
-        name: 'Holiday Gift Tages',
+        name: 'Holiday Gift Tags',
         image: giftTags2,
         price: '12 for $5.00',
         bundle: '24 for $8.00',
@@ -66,7 +67,7 @@ export const PRODUCTS = [
     },
     {
         id: 5,
-        name: 'Blank Cards',
+        name: 'Note Cards',
         image: blankCards,
         price: 'Pack of 6 for $6.00',
         bundle: '2 packs of 6 for $10.00',
@@ -97,6 +98,16 @@ export const PRODUCTS = [
     },
     {
         id: 8,
+        name: 'Gift Box',
+        image: giftBox,
+        price: '$9.00',
+        bundle: 'contains',
+        priceNum: 20,
+        bunOne: 40,
+        bunTwo: 60
+    },
+    {
+        id: 9,
         name: 'Lip Balm',
         image: lipBalm,
         price: '$3.00',
@@ -106,7 +117,7 @@ export const PRODUCTS = [
         bunTwo: 9
     },
     {
-        id: 9,
+        id: 10,
         name: 'Foot Scrubs',
         image: bodyAndBath,
         price: '$3.00',
@@ -116,8 +127,8 @@ export const PRODUCTS = [
         bunTwo: 8
     },
     {
-        id: 10,
-        name: 'Bath Sailts',
+        id: 11,
+        name: 'Bath Salts',
         image: bodyAndBath2,
         price: '$3.00',
         bundle: '2 for $5.00\n3 for $8.00',
@@ -126,7 +137,7 @@ export const PRODUCTS = [
         bunTwo: 8
     },
     {
-        id: 11,
+        id: 12,
         name: 'Body Scrubs',
         image: bodyAndBath3,
         price: '$3.00',
@@ -136,7 +147,7 @@ export const PRODUCTS = [
         bunTwo: 8
     },
     {
-        id: 12,
+        id: 13,
         name: 'Bath Bombs',
         image: bodyAndBath4,
         price: '$3.00',
@@ -146,7 +157,7 @@ export const PRODUCTS = [
         bunTwo: 8
     },
     {
-        id: 13,
+        id: 14,
         name: 'Soaps',
         image: bodyAndBath5,
         price: '$3.00',
