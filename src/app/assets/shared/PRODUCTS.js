@@ -12,7 +12,8 @@ import bodyAndBath5 from '../imag/IMG_4267.jpg'
 import candles from '../imag/image6.jpeg'
 import cnadles2 from '../imag/IMG_7879.JPG'
 import lipBalm from '../imag/image0.jpeg'
-import giftBox from '../imag/IMG_8219.PNG'
+import giftBox1 from '../imag/IMG_8300.jpg'
+import giftBox2 from '../imag/IMG_8219.PNG'
 
 export const PRODUCTS = [
     {
@@ -98,16 +99,26 @@ export const PRODUCTS = [
     },
     {
         id: 8,
-        name: 'Gift Box',
-        image: giftBox,
-        price: '$9.00',
-        bundle: 'contains',
-        priceNum: 20,
-        bunOne: 40,
-        bunTwo: 60
+        name: '3 pack Gift Box',
+        image: giftBox1,
+        price: '$10.00',
+        bundle: 'contains soap, bath salt and bath bomb',
+        priceNum: 10,
+        bunOne: 20,
+        bunTwo: 30
     },
     {
         id: 9,
+        name: '6 pack Gift Box',
+        image: giftBox2,
+        price: '$10.00',
+        bundle: 'contains bath salt, bath bomb, body scrub, foot scrub, candle and soap.',
+        priceNum: 10,
+        bunOne: 20,
+        bunTwo: 30
+    },
+    {
+        id: 10,
         name: 'Lip Balm',
         image: lipBalm,
         price: '$3.00',
@@ -117,7 +128,7 @@ export const PRODUCTS = [
         bunTwo: 9
     },
     {
-        id: 10,
+        id: 11,
         name: 'Foot Scrubs',
         image: bodyAndBath,
         price: '$3.00',
@@ -127,7 +138,7 @@ export const PRODUCTS = [
         bunTwo: 8
     },
     {
-        id: 11,
+        id: 12,
         name: 'Bath Salts',
         image: bodyAndBath2,
         price: '$3.00',
@@ -137,7 +148,7 @@ export const PRODUCTS = [
         bunTwo: 8
     },
     {
-        id: 12,
+        id: 13,
         name: 'Body Scrubs',
         image: bodyAndBath3,
         price: '$3.00',
@@ -147,7 +158,7 @@ export const PRODUCTS = [
         bunTwo: 8
     },
     {
-        id: 13,
+        id: 14,
         name: 'Bath Bombs',
         image: bodyAndBath4,
         price: '$3.00',
@@ -157,7 +168,7 @@ export const PRODUCTS = [
         bunTwo: 8
     },
     {
-        id: 14,
+        id: 15,
         name: 'Soaps',
         image: bodyAndBath5,
         price: '$3.00',

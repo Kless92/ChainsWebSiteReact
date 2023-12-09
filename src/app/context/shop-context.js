@@ -33,7 +33,7 @@ export const ShopContextProvider = (props) => {
             if (cartItems[item] > 0) {
                 //This to adject price if the user buys 5 of the same proudect
                 /*Foot scrubs, bath sailts, body scrubs, bath bombs & soaps deals can mix together */
-                if(itemInfo.id > 9) {
+                if(itemInfo.id > 10) {
                     bathItemsCount += cartItems[item]
                     console.log(cartItems[item]);
                     if(bathItemsCount == 1){
