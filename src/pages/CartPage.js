@@ -1,7 +1,8 @@
 import {useContext} from 'react';
-import { Container } from "reactstrap";
+import { Container, Nav, NavItem } from "reactstrap";
 import { PRODUCTS } from '../app/assets/shared/PRODUCTS';
 import { ShopContext } from '../app/context/shop-context';
+import { NavLink } from 'react-router-dom'
 import CartItem from "../features/cart/cartItem";
 
 const Cart = () => {
@@ -21,9 +22,23 @@ const Cart = () => {
                 })}
             </div>
             {totalAmount > 0 ? ( 
-                <div className="checkout">
-                    <p> Subtotal: ${totalAmount}</p>
-                    <button> Checkout </button>
+                <div>
+                    <tbody>
+                        <tr>
+                            <p>TEST</p>
+                        </tr>
+                        <tr>
+                            <p> Subtotal: ${totalAmount}</p>
+                        </tr>
+                    </tbody>
+
+                    <Nav className="justify-content-center">
+                        <NavItem className='link-box'>
+                            <NavLink className='nav-link' to='/checkout'>
+                                Checkout
+                            </NavLink>
+                        </NavItem>
+                    </Nav>
                 </div>
             ): (<h1> Cart is Empty </h1>)}
         </Container>

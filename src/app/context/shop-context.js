@@ -80,10 +80,20 @@ export const ShopContextProvider = (props) => {
                 }
             }
         }
-        totalAmount =(totalAmount*sTax)+totalAmount
+
+        //totalAmount = taxAmount + (totalAmount * sTax);
         return totalAmount.toFixed(2);
     };
-
+    //Getting the tax ammount from items
+    const saleTax = () => {
+        let a = getTotalCartAmount() * 0.0825
+        return a.toFixed(2)
+    }
+    //Adding items
+    const afterTax = () => {
+        return Number(getTotalCartAmount()) + Number(saleTax());
+        
+    }
     const addToCart = (itemId) => {
         setCartItems((prev) => ({...prev, [itemId]: prev[itemId] + 1}))
     };
@@ -95,8 +105,7 @@ export const ShopContextProvider = (props) => {
     const updateCartItemCount = (newAmount, itemId) => {
         setCartItems((prev) => ({...prev, [itemId]: newAmount}))
     } 
-
-    const contextValue = {cartItems, addToCart, removeFromCart, updateCartItemCount, getTotalCartAmount};
+    const contextValue = {cartItems, addToCart, removeFromCart, updateCartItemCount, getTotalCartAmount, saleTax, afterTax};
     return (
         <ShopContext.Provider value={contextValue}>
             {props.children}

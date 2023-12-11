@@ -6,6 +6,7 @@ import Contact from './pages/ContactPage';
 import Program from './pages/ProgramPage';
 import Story from './pages/StoryPage';
 import Cart from './pages/CartPage';
+import Checkout from './pages/CheckOutPage';
 import Header from './components/Headder';
 import Footer from './components/Footer';
 import { ShopContextProvider } from './app/context/shop-context';
@@ -22,6 +23,7 @@ function App() {
           <Route path='store' element={<Store/>}/>
           <Route path='contact' element={<Contact/>}/>
           <Route path='cart' element={<Cart/>}/>
+          <Route path='checkout' element={<Checkout/>}/>
         </Routes>    
         <Footer/>
       </ShopContextProvider>
