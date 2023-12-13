@@ -23,15 +23,6 @@ const Cart = () => {
             </div>
             {totalAmount > 0 ? ( 
                 <div>
-                    <tbody>
-                        <tr>
-                            <p>TEST</p>
-                        </tr>
-                        <tr>
-                            <p> Subtotal: ${totalAmount}</p>
-                        </tr>
-                    </tbody>
-
                     <Nav className="justify-content-center">
                         <NavItem className='link-box'>
                             <NavLink className='nav-link' to='/checkout'>

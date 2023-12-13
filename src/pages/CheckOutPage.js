@@ -13,7 +13,7 @@ const Checkout = () => {
         <Container>
             <h3> Billing Address</h3>
             <tbody>
-
+                {/*Col One Full name and billing address*/}
                 <td>
                     <tr>
                         {/*First Name Input*/}
@@ -28,6 +28,7 @@ const Checkout = () => {
                         <label for="fname"><i class="fa fa-address-book"></i> Billing Address:<input name="myInput" placeholder="Billing Address"/></label>
                     </tr>
                 </td>
+                {/*Col Two Shipping, phon # and Venmo*/}
                 <td>
                     <tr>
                         {/*Shipping Address Input*/}
@@ -37,7 +38,17 @@ const Checkout = () => {
                         {/*Phone Number Input*/}
                         <label for="fname"><i class="fa fa-phone"></i> Phone Number:<input name="myInput" placeholder="Phone Number"/></label>
                     </tr>
+                    <tr>
+                        <h4>Venmo:  </h4>
+                        <a
+                            className='btn btn-social-icon btn-info'
+                            href=''
+                        >
+                            <i className='fa-brands fa-square-vimeo' style={{color: 'white'}}/>
+                        </a>
+                    </tr>
                 </td>
+                {/*Col Three Total cost; including tax and shipping*/}
                 <td>
                     <tr>
                         <div className='cartItems'>
@@ -57,11 +68,11 @@ const Checkout = () => {
                     <tr>
                         <p> Subtotal: ${secondTotal}</p>
                     </tr>
-                    <tr>
+                    {/*<tr>
                         <p>Shipping: $</p>
-                    </tr>
+                        </tr>*/}
                     <tr>
-                        <p>Total: ${totalAmount}</p>
+                        <p>Total: ${secondTotal}</p>
                     </tr>
                 </td>
             </tbody>
