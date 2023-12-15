@@ -10,11 +10,11 @@ const Checkout = () => {
     const tax = saleTax()
     const secondTotal = afterTax()
     return (
-        <Container>
+        <Container  className='checkoutBox'>
             <h3> Billing Address</h3>
-            <tbody>
+            <table>
                 {/*Col One Full name and billing address*/}
-                <td>
+                <td >
                     <tr>
                         {/*First Name Input*/}
                         <label for="fname"><i class="fa fa-user"></i> First Name:<input name="myInput" placeholder="First Name"/></label>
@@ -75,8 +75,8 @@ const Checkout = () => {
                         <p>Total: ${secondTotal}</p>
                     </tr>
                 </td>
-            </tbody>
-</Container>
+            </table>
+        </Container>
     )
 }
 export default Checkout;

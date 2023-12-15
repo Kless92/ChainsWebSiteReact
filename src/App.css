@@ -69,3 +69,10 @@
   margin: auto !important;
 }
 
+.checkoutBox{
+  border: 5px solid;
+  width: auto;
+  padding: 50px;
+  margin: auto;
+}
+
