@@ -10,42 +10,43 @@ const Checkout = () => {
     const tax = saleTax()
     const secondTotal = afterTax()
     return (
-        <Container  className='checkoutBox'>
+        <Container>
             <h3> Billing Address</h3>
-            <table>
+            <table style={{width:"100%"}}>
                 {/*Col One Full name and billing address*/}
-                <td >
-                    <tr>
+                <td>
+                    <tr className='billingAllign'>
                         {/*First Name Input*/}
                         <label for="fname"><i class="fa fa-user"></i> First Name:<input name="myInput" placeholder="First Name"/></label>
                     </tr>
-                    <tr>
+                    <tr  className='billingAllign'>
                         {/*Last Name Input*/}
                         <label for="fname"><i class="fa-regular fa-user"></i> Last Name:<input name="myInput" placeholder="Last Name"/></label>                   
                     </tr>
-                    <tr>
+                    <tr  className='billingAllign'>
                         {/*Billing Address Input*/}
                         <label for="fname"><i class="fa fa-address-book"></i> Billing Address:<input name="myInput" placeholder="Billing Address"/></label>
                     </tr>
                 </td>
                 {/*Col Two Shipping, phon # and Venmo*/}
                 <td>
-                    <tr>
+                    <tr className='billingAllign'>
                         {/*Shipping Address Input*/}
                         <label for="fname"><i class="fa-regular fa-address-book"></i> Shipping Address:<input name="myInput" placeholder="Shipping Address"/></label>
                     </tr>
-                    <tr>
+                    <tr className='billingAllign'>
                         {/*Phone Number Input*/}
                         <label for="fname"><i class="fa fa-phone"></i> Phone Number:<input name="myInput" placeholder="Phone Number"/></label>
                     </tr>
-                    <tr>
-                        <h4>Venmo:  </h4>
-                        <a
-                            className='btn btn-social-icon btn-info'
-                            href=''
-                        >
-                            <i className='fa-brands fa-square-vimeo' style={{color: 'white'}}/>
-                        </a>
+                    <tr className='billingAllign'>
+                        <h4>Venmo: 
+                            <a
+                                className='btn btn-social-icon btn-info'
+                                href=''
+                            >
+                                <i className='fa-brands fa-square-vimeo' style={{color: 'white'}}/>
+                            </a>
+                        </h4>
                     </tr>
                 </td>
                 {/*Col Three Total cost; including tax and shipping*/}
