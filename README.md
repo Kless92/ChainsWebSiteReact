@@ -1,4 +1,5 @@
-# Getting Started with Create React App
+# A React project for my little brother as request from my parents.  This is still pre-alpha.
+# Below is the stand React and npm commands.  
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
