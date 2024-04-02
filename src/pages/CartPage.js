@@ -21,6 +21,9 @@ const Cart = () => {
                     }
                 })}
             </div>
+            <div>
+                <p>Total: ${totalAmount}</p>
+            </div>
             {totalAmount > 0 ? ( 
                 <div>
                     <Nav className="justify-content-center">

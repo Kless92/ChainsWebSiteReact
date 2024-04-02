@@ -4,10 +4,12 @@ import ProudctsList from "./productList";
 const Products = () => {
     return (
         <>
-            {`Shipping & taxes NOT included in the above pricing.\n
-              Please contact us if you are interested in pricing on 
-              gift baskets for any occasion.\nThe information is 
-              located on th econtact page.`}
+           <h4>
+                Shipping & taxes NOT included in the above pricing.<br />
+                Please contact us if you are interested in pricing on 
+                gift baskets for any occasion.<br />The information is 
+                located on th econtact page.
+            </h4>
 
             <Table class='price-border' cellspacing='10'>
 
@@ -19,8 +21,9 @@ const Products = () => {
                     </tr>
                 </thead>
                 <ProudctsList />
-                <h3>For a customize gift box, please contact the number or email below or on contact page.</h3>
+                
             </Table>
+            <h3>For a customize gift box, please contact the number or email below or on contact page.</h3>
         </>
     )
 }
