@@ -15,7 +15,7 @@ export const ShopContextProvider = (props) => {
 
     const getTotalCartAmount = () => {
         let totalAmount = 0;
-        let sTax = 0.0825;
+        //let sTax = 0.0825;
         let bathItemsCount = 0;
         let test
 
@@ -51,12 +51,27 @@ export const ShopContextProvider = (props) => {
                     console.log(test+'   '+itemInfo.id+' '+cartLength+"   "+itemInfo.id)
                     continue
                 }
-                //Right now "cartItems[item] == 5" only efft "book marks" subject to change later
-                if(cartItems[item] == 5 && itemInfo.id==0){
+                //Delete for clean up
+                //if(cartItems[item] == 5 && itemInfo.id==0){
                     //let itemInfo = PRODUCTS.find((products) => products.id === Number(item));
-                    totalAmount += (cartItems[item] * itemInfo.priceNum)-1;
-                    console.log("5: "+totalAmount);
-                    continue
+                  //  totalAmount += (cartItems[item] * itemInfo.priceNum)-1;
+                    //console.log("5: "+totalAmount);
+                    //continue
+                //}
+                //Right now "cartItems[item] == 5" only efft "book marks" and "magnets"; subject to change later
+                if(cartItems[item] == 5){
+                    if (itemInfo.id==0){
+                        //let itemInfo = PRODUCTS.find((products) => products.id === Number(item));
+                        totalAmount += (cartItems[item] * itemInfo.priceNum)-1;
+                        console.log("5: "+totalAmount);
+                        continue
+                    }
+                    else if (itemInfo.id==10){
+                        totalAmount += (cartItems[item] * itemInfo.priceNum)-2;
+                        console.log("5: "+totalAmount);
+                        continue
+                    }
+
                 }
                 //This to adject price for buying 3 proudects
                 else if(cartItems[item] == 3){

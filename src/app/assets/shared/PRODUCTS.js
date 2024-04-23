@@ -12,6 +12,7 @@ import bodyAndBath5 from '../imag/IMG_4267.jpg'
 import candles from '../imag/image6.jpeg'
 import cnadles2 from '../imag/IMG_7879.JPG'
 import lipBalm from '../imag/image0.jpeg'
+import magnets from '../imag/IMG_5241.jpg'
 import giftBox1 from '../imag/IMG_8300.jpg'
 import giftBox2 from '../imag/IMG_8219.PNG'
 
@@ -119,13 +120,13 @@ export const PRODUCTS = [
     },
     {
         id: 10,
-        name: 'Lip Balm',
-        image: lipBalm,
-        price: '$3.00',
-        bundle: '',
-        priceNum: 3,
-        bunOne: 6,
-        bunTwo: 9
+        name: 'Magnet',
+        image: magnets,
+        price: '$2.00',
+        bundle: '5 for $8.00',
+        priceNum: 2,
+        bunOne: 4,
+        bunTwo: 6
     },
     {
         id: 11,
