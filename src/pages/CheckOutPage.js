@@ -12,6 +12,7 @@ const Checkout = () => {
     return (
         <Container>
             <h3> Billing Address</h3>
+            <h4>**Postage will be determined once the order is assembled.  The cost of postage will be added to the invoice** </h4>
             <table style={{width:"100%"}}>
                 {/*Col One Full name and billing address*/}
                 <td>
@@ -76,7 +77,7 @@ const Checkout = () => {
                         <p>Total: ${secondTotal}</p>
                     </tr>
                 </td>
-            </table>
+            </table>          
         </Container>
     )
 }

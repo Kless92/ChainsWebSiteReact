@@ -86,7 +86,7 @@ class HomeCarousel extends Component {
     this.onExiting = this.onExiting.bind(this);
     this.onExited = this.onExited.bind(this);
   }
-
+  
   onExiting() {
     this.animating = true;
   }
