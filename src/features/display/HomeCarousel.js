@@ -133,6 +133,7 @@ class HomeCarousel extends Component {
         activeIndex={activeIndex}
         next={this.next}
         previous={this.previous}
+        data-bs-theme="dark"
       >
         <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={this.goToIndex} />
         {slides}
