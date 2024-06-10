@@ -7,14 +7,14 @@ const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false);
     return (
         <Navbar dark color='primary' sticky='top' expand='md'>
-            <Row className="centerImag">
+            <Row>
                 <NavbarBrand href='/' >
                     <img src={Logo} alt='logo not found' class='img-fluid' className = 'headerImage'/>
                 </NavbarBrand>
                 <NavbarToggler onClick={() => setMenuOpen(!menuOpen)} />
                 
                 <Collapse isOpen={menuOpen} navbar>
-                    <Nav className="centerImag" navbar>
+                    <Nav className="m-auto" navbar>
                         <NavItem className='link-box'>
                             <NavLink className='nav-link' to='/'>
                                 <i className='fa fa-home fa-lg' /> Home

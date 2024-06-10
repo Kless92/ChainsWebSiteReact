@@ -71,18 +71,23 @@
 /*Header*/
 
 .headerImage{
-  width: 56%;
+  /*width: 56%;*/
+  height: auto;
+  max-width: 100%;
   border: 5px solid black;
 }
 
-.centerImag{
+/*.centerImag{
   display: block;
   margin: auto !important;
-}
+}*/
 
 .link-box{
   width: 175px;
   border: 5px solid;
   margin: 2%;
-  background-color: violet
+  background-color: rgb(130, 238, 143)
+}
+.linkText{
+  color: red;
 }
