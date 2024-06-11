@@ -75,6 +75,9 @@
   height: auto;
   max-width: 100%;
   border: 5px solid black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*.centerImag{
@@ -83,10 +86,10 @@
 }*/
 
 .link-box{
-  width: 175px;
+  /*width: 175px;*/
   border: 5px solid;
   margin: 2%;
-  background-color: rgb(130, 238, 143)
+  background-color: rgb(124, 129, 124)
 }
 .linkText{
   color: red;
