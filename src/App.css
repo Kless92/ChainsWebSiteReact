@@ -37,15 +37,11 @@
   }
 }
 
-.footer-site {
-  border: 4px solid black;
-  /*background-color: blue*/
-}
+
 
 .reSize{
   width: 200px;
 }
-
 .carouselSize{
   width: 400px;
   height: 500px;
@@ -57,45 +53,36 @@
   margin: 10px auto;
   background-color: white;
 }
-
-
-
-.checkoutBox{
-  border: 5px solid;  
-}
-
+/*Checkoutpage*/
 .billingAllign{
   text-align: left;
   border: 55px solid white;
 }
-
 /*Header*/
-
 .headerImage{
   /*width: 56%;*/
   height: auto;
   max-width: 100%;
   border: 5px solid black;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  display: flex;
 }
-
-/*.centerImag{
-  display: block;
-  margin: auto !important;
-}*/
-
 .link-box{
   /*width: 175px;*/
   border: 5px solid;
   margin: 2%;
+  max-width: 100%;
   background-color: rgb(124, 129, 124)
 }
+/*Footer*/
+.footer-site {
+  border: 4px solid black;
+  /*background-color: blue*/
+}
+/*TEST*/
+
 .linkText{
   color: red;
 }
-
-a{
-  
+.checkoutBox{
+  border: 5px solid;  
 }

@@ -11,7 +11,7 @@ import bodyAndBath4 from '../imag/IMG_4465.jpg'
 import bodyAndBath5 from '../imag/IMG_4267.jpg'
 import candles from '../imag/image6.jpeg'
 import cnadles2 from '../imag/IMG_7879.JPG'
-import lipBalm from '../imag/image0.jpeg'
+//import lipBalm from '../imag/image0.jpeg'
 import magnets from '../imag/IMG_5241.jpg'
 import giftBox1 from '../imag/IMG_8300.jpg'
 import giftBox2 from '../imag/IMG_8219.PNG'
@@ -112,7 +112,7 @@ export const PRODUCTS = [
         id: 9,
         name: '6 pack Gift Box',
         image: giftBox2,
-        price: '$10.00',
+        price: '$22.00',
         bundle: 'contains bath salt, bath bomb, body scrub, foot scrub, candle and soap.',
         priceNum: 10,
         bunOne: 20,

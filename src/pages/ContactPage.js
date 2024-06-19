@@ -18,7 +18,7 @@ const Contact = () => {
                     <tr>
                         <td>Suite 104-105</td>
                         <td>
-                            907 Linwood Dr. Denton, Tx 76209
+                            909 Linwood Dr. Denton, Tx 76209
                         </td>
                     </tr>
                     <tr>

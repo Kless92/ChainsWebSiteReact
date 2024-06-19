@@ -21,58 +21,58 @@ import imagElev from '../../app/assets/imag/IMG_8213.PNG';
 const items = [
   {
     src: imagOne,
-    altText: 'Slide 1',
-    caption: 'Slide 1'
+    altText: '',
+    caption: ''
   },
   {
     src: imagTwo,
-    altText: 'Slide 2',
-    caption: 'Slide 2'
+    altText: '',
+    caption: ''
   },
   {
     src: imagThr,
-    altText: 'Slide 3',
-    caption: 'Slide 3'
+    altText: '',
+    caption: ''
   },
   {
     src: imagFou,
-    altText: 'Slide 4',
-    caption: 'Slide 4'
+    altText: '',
+    caption: ''
   },
   {
     src: imagFive,
-    altText: 'Slide 5',
-    caption: 'Slide 5'
+    altText: '',
+    caption: ''
   },
   {
     src: imagSix,
-    altText: 'Slide 6',
-    caption: 'Slide 6'
+    altText: '',
+    caption: ''
   },
   {
     src: imagSev,
-    altText: 'Slide 7',
-    caption: 'Slide 7'
+    altText: '',
+    caption: ''
   },
   {
     src: imagEig,
-    altText: 'Side 8',
-    caption: 'Slide 8'
+    altText: '',
+    caption: ''
   },
   {
     src: imagNine,
-    altText: 'Slide 9',
-    caption: 'Slide 9'
+    altText: '',
+    caption: ''
   },
   {
     src: imagTen,
-    altText: 'Slide 10',
-    caption: 'Slide 10'
+    altText: '',
+    caption: ''
   },
   {
     src: imagElev,
-    altText: 'Slide 11',
-    caption: 'Slide 11'
+    altText: '',
+    caption: ''
   },
 ];
 
@@ -135,7 +135,8 @@ class HomeCarousel extends Component {
         previous={this.previous}
         data-bs-theme="dark"
       >
-        <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={this.goToIndex} />
+        {/*CarouslIndicator is the dotted line that each dote is every picer in array */}
+        {/*<CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={this.goToIndex} />*/}
         {slides}
         <CarouselControl direction="prev" directionText="Previous" onClickHandler={this.previous} />
         <CarouselControl direction="next" directionText="Next" onClickHandler={this.next} />
