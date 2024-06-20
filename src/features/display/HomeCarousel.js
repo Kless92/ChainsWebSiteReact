@@ -17,6 +17,16 @@ import imagEig from '../../app/assets/imag/IMG_8208.PNG';
 import imagNine from '../../app/assets/imag/IMG_8210.PNG';
 import imagTen from '../../app/assets/imag/IMG_8212.PNG';
 import imagElev from '../../app/assets/imag/IMG_8213.PNG';
+import imagTwel from '../../app/assets/imag/image000002.JPG';
+import imag3Ten from '../../app/assets/imag/IMG_0159.jpg';
+import imag4Ten from '../../app/assets/imag/IMG_4674.jpg';
+import imag5Ten from '../../app/assets/imag/IMG_4880.jpg';
+import imag6Ten from '../../app/assets/imag/IMG_4976.jpg';
+import imag7Ten from '../../app/assets/imag/IMG_5111.jpg';
+import imag8Ten from '../../app/assets/imag/IMG_5167.jpg';
+import imag9Ten from '../../app/assets/imag/IMG_5229.jpg';
+import imagTwen from '../../app/assets/imag/IMG_5246.jpg';
+import imagTwe1 from '../../app/assets/imag/IMG_9926.JPG';
 
 const items = [
   {
@@ -74,6 +84,56 @@ const items = [
     altText: '',
     caption: ''
   },
+  {
+    src: imagTwel,
+    altText: '',
+    caption: ''
+  },
+  {
+    src: imag3Ten,
+    altText: '',
+    caption: ''
+  },
+  {
+    src: imag4Ten,
+    altText: '',
+    caption: ''
+  },
+  {
+    src: imag5Ten,
+    altText: '',
+    caption: ''
+  },
+  {
+    src: imag6Ten,
+    altText: '',
+    caption: ''
+  },
+  {
+    src: imag7Ten,
+    altText: '',
+    caption: ''
+  },
+  {
+    src: imag8Ten,
+    altText: '',
+    caption: ''
+  },
+  {
+    src: imag9Ten,
+    altText: '',
+    caption: ''
+  },
+  {
+    src: imagTwen,
+    altText: '',
+    caption: ''
+  },
+  {
+    src: imagTwe1,
+    altText: '',
+    caption: ''
+  }
 ];
 
 class HomeCarousel extends Component {
