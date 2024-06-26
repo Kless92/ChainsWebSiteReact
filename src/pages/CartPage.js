@@ -11,17 +11,17 @@ const Cart = () => {
 
     return (
         <Container>
-            <div className='cart'>
+            <div className='adjustCartText'>
                 <h1> Cart Items </h1>
             </div>
-            <div className='cartItems'>
+            <div className='adjustCartText'>
                 {PRODUCTS.map((product) =>{
                     if (cartItems[product.id] !== 0){
                         return <CartItem data={product}/>
                     }
                 })}
             </div>
-            <div>
+            <div className='adjustCartText'>
                 <p>Total: ${totalAmount}</p>
             </div>
             {totalAmount > 0 ? ( 

@@ -6,7 +6,7 @@ const CartTotal = (props) => {
     return(
         <Table class='price-border' cellspacing='10'>
             <tr>
-                <td className='cartItem'>
+                <td>
                     {name}
                 </td>
                 <td>

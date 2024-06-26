@@ -53,11 +53,7 @@
   margin: 10px auto;
   background-color: white;
 }
-/*Checkoutpage*/
-.billingAllign{
-  text-align: left;
-  border: 55px solid white;
-}
+
 /*Header*/
 .headBaner{
   width: 100%;
@@ -76,7 +72,6 @@
   display: flex;
 }
 .link-box{
-  width: 95%;
   border: 5px solid;
   margin: 2%;
   background-color: rgb(124, 129, 124)
@@ -86,6 +81,15 @@
   border: 4px solid black;
   /*background-color: blue*/
 }
+/*Cart Page*/
+.adjustCartText{
+  padding-top: 20px;
+}
+/*Checkoutpage*/
+.billingAllign{
+  text-align: left;
+  border: 55px solid white;
+}
 /*TEST*/
 
 .linkText{
@@ -93,4 +97,8 @@
 }
 .checkoutBox{
   border: 5px solid;  
+}
+
+.test{
+  padding-top: 20px;
 }

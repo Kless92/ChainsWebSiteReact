@@ -6,7 +6,7 @@ const Footer = () => {
         <footer className='footer-site'>
             <Container>
                 <Row>
-                    <Col xs='3' sm='2' lg={{size: 2, offset: 1}}>
+                    <Col xs='3' sm='4' md='3' lg={{size: 1, offset: 1}}>
                         <h5>Links</h5>
                         <ul>
                             <li>
@@ -26,7 +26,7 @@ const Footer = () => {
                             </li>
                         </ul>
                     </Col>
-                    <Col xs='2' sm='3' lg={{size: 2, offset: 2}}>
+                    <Col xs='2' sm='2' md='4' lg={{size: 3, offset: 2}}>
                         <h5>Socials</h5>
                         <a
                             className='btn btn-social-icon btn-instagram btn-lg fa-lg'
@@ -48,7 +48,7 @@ const Footer = () => {
                             <i className='fa-brands fa-tiktok' />
                         </a>{' '}
                     </Col>
-                    <Col xs='7' sm='4' lg={{size: 3, offset: 2}}>
+                    <Col xs='7' sm='6' md='5' lg={{size: 4, offset: 1}}>
                         <a
                             role='button'
                             className='btn btn-link'
