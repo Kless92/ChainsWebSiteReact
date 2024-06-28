@@ -87,8 +87,10 @@
 }
 /*Checkoutpage*/
 .billingAllign{
-  text-align: left;
-  border: 55px solid white;
+  text-align: center;
+  border: 25px solid white;
+  align-items: center;
+  justify-content: center;
 }
 /*TEST*/
 

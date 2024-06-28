@@ -1,5 +1,5 @@
 import {useContext} from 'react';
-import { Container } from "reactstrap";
+import { Container, Row, Col } from "reactstrap";
 import { PRODUCTS } from '../app/assets/shared/PRODUCTS';
 import { ShopContext } from '../app/context/shop-context';
 import CartTotal from '../features/cart/cartTotal';
@@ -10,36 +10,35 @@ const Checkout = () => {
     const tax = saleTax()
     const secondTotal = afterTax()
     return (
-        <Container>
+        <Container style={{background:'gray'}}>
             <h3> Billing Address</h3>
             <h4>**Postage will be determined once the order is assembled.  The cost of postage will be added to the invoice** </h4>
-            <table style={{width:"100%"}}>
                 {/*Col One Full name and billing address*/}
-                <td>
-                    <tr className='billingAllign'>
+                <Row style={{border:'solid'}}>
+                    <Col className='billingAllign' sm='4' md ='4' lg='4'>
                         {/*First Name Input*/}
                         <label for="fname"><i class="fa fa-user"></i> First Name:<input name="myInput" placeholder="First Name"/></label>
-                    </tr>
-                    <tr  className='billingAllign'>
+                    </Col>
+                    <Col  className='billingAllign' sm='4' md ='4'  lg='4'>
                         {/*Last Name Input*/}
                         <label for="fname"><i class="fa-regular fa-user"></i> Last Name:<input name="myInput" placeholder="Last Name"/></label>                   
-                    </tr>
-                    <tr  className='billingAllign'>
+                    </Col>
+                    <Col  className='billingAllign' sm='4' md ='4'  lg='4'>
                         {/*Billing Address Input*/}
                         <label for="fname"><i class="fa fa-address-book"></i> Billing Address:<input name="myInput" placeholder="Billing Address"/></label>
-                    </tr>
-                </td>
+                    </Col>
+                </Row>
                 {/*Col Two Shipping, phon # and Venmo*/}
-                <td>
-                    <tr className='billingAllign'>
+                <Row>
+                    <Col className='billingAllign'sm='4' md ='4' lg='4'>
                         {/*Shipping Address Input*/}
                         <label for="fname"><i class="fa-regular fa-address-book"></i> Shipping Address:<input name="myInput" placeholder="Shipping Address"/></label>
-                    </tr>
-                    <tr className='billingAllign'>
+                    </Col>
+                    <Col className='billingAllign'sm='4' md ='4' lg='4'>
                         {/*Phone Number Input*/}
                         <label for="fname"><i class="fa fa-phone"></i> Phone Number:<input name="myInput" placeholder="Phone Number"/></label>
-                    </tr>
-                    <tr className='billingAllign'>
+                    </Col>
+                    <Col className='billingAllign'sm='4' md ='4' lg='4'>
                         <h4>Venmo: 
                             <a
                                 className='btn btn-social-icon btn-info'
@@ -48,11 +47,11 @@ const Checkout = () => {
                                 <i className='fa-brands fa-square-vimeo' style={{color: 'white'}}/>
                             </a>
                         </h4>
-                    </tr>
-                </td>
+                    </Col>
+                </Row>
                 {/*Col Three Total cost; including tax and shipping*/}
-                <td>
-                    <tr>
+                <Row style={{border:'solid'}}>
+                    <Col className='billingAllign'sm='4' md ='4' lg='4'>
                         <div className='cartItems'>
                             {PRODUCTS.map((product) =>{
                                 if (cartItems[product.id] !== 0){
@@ -60,24 +59,23 @@ const Checkout = () => {
                                 }
                             })}
                         </div>
-                    </tr>
-                    <tr>
+                    </Col>
+                    <Col className='billingAllign'sm='4' md ='4' lg='4'>
                         <p>Total: {totalAmount}$</p>
-                    </tr>
-                    <tr>
+                    </Col>
+                    <Col className='billingAllign'sm='4' md ='4' lg='4'>
                         <p>Tax: ${tax}</p>
-                    </tr>
-                    <tr>
+                    </Col>
+                    <Col className='billingAllign'sm='4' md ='4' lg='4'>
                         <p> Subtotal: ${secondTotal}</p>
-                    </tr>
+                    </Col>
                     {/*<tr>
                         <p>Shipping: $</p>
                         </tr>*/}
-                    <tr>
+                    <Col className='billingAllign'sm='4' md ='4' lg='4'>
                         <p>Total: ${secondTotal}</p>
-                    </tr>
-                </td>
-            </table>          
+                    </Col>
+                </Row>    
         </Container>
     )
 }
