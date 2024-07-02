@@ -4,7 +4,7 @@ const CartTotal = (props) => {
     const {name, price} = props.data
 
     return(
-        <Table class='price-border' cellspacing='10'>
+        <Table>
             <tr>
                 <td>
                     {name}
