@@ -14,13 +14,12 @@ const Products = () => {
             <Table class='price-border' cellspacing='10'>
                 <thead>
                     <tr>
-                        <th>Prouducts</th>
-                        <th>Pricing</th>
-                        <th>Cart</th>
+                        <th><h1>Prouducts</h1></th>
+                        <th><h1>Pricing</h1></th>
+                        <th><h1>Cart</h1></th>
                     </tr>
                 </thead>
                 <ProudctsList />
-                
             </Table> 
         </>
     )

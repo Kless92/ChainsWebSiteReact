@@ -98,5 +98,7 @@
   color: red;
 }
 .checkoutBox{
-  border: 5px solid;  
+  width: 100%; 
+  align-items: center;
+  padding-left: 15px;
 }

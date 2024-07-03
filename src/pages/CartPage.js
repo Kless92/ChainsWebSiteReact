@@ -28,7 +28,7 @@ const Cart = () => {
                 <div>
                     <Nav className="justify-content-center">
                         <NavItem className='link-box'>
-                            <NavLink className='nav-link' to='/checkout'>
+                            <NavLink className='nav-link' to='/checkout' style={{color: 'white', textDecoration: 'none'}}>
                                 Checkout
                             </NavLink>
                         </NavItem>

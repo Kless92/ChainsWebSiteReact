@@ -19,8 +19,6 @@ const Header = () => {
             
                 <Collapse isOpen={menuOpen} navbar>
                     <Nav navbar className='headBaner'>
-                    
-                        
                         <Col xs={12} sm={12} md={2} lg={2} xl={2} >
                             <NavItem className='link-box'>
                                 <NavLink className='nav-link' to='/'>
