@@ -11,7 +11,7 @@ const Products = () => {
                 located on th econtact page.<br/>For a customize gift box, 
                 please contact the number or email below or on contact page.
             </h3>
-            <Table class='price-border' cellspacing='10'>
+            <Table>
                 <thead>
                     <tr>
                         <th><h1>Prouducts</h1></th>

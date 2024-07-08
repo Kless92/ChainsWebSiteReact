@@ -6,7 +6,7 @@ const ImageCard = () => {
         <Card>
             <Row>
                 <HomeCarousel/>
-                <CardBody >
+                <CardBody tag='h4'>
                     <CardText>
                         My name is Chandler Klessens and I am 24 years old. I experience significant autism,
                         sensory integration issues and some difficulty communicating, which can make it hard

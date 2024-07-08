@@ -1,6 +1,5 @@
-import { Container, Nav, NavItem, Row, Col } from "reactstrap";
+import { Container} from "reactstrap";
 import Prouducts from "../features/Store/Products";
-import { NavLink } from 'react-router-dom';
 import BackToTopButton from '../components/BackToTopButton';
 
 const Store = () => {

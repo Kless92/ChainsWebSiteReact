@@ -9,7 +9,7 @@ const storyCompoenent = () => {
                         <CardImg src={chan} alt={"image not found"} style={{ height: 500, width: 400 }} />
                     </Col>
                     <Col>
-                        <CardText style={{alignItems: 'center', display: 'flex', height: "100%"}}>
+                        <CardText tag='h3'style={{alignItems: 'center', display: 'flex', height: "100%"}}>
                         Autism at Work, LLC is a safe and supportive program where adults with autism 
                         are taught vocational, self help, daily living, and skills that can support 
                         independence.   The program is tailored to meet the needs of each and every 

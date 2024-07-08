@@ -7,11 +7,12 @@ const ProudctsList = () => {
     const { addToCart, cartItems } = useContext(ShopContext);
 
     return (
-        <tbody class="price-border">
+        <>
             {products.map((product) => {
                 const { id, image, name, price, bundle} = product;
                 const cartItemAmount = cartItems[id]
                 return (
+                    <tbody class="price-border">
                     <tr>
                         <td>
                             <img class='reSize' src={image} alt={name}/>
@@ -30,9 +31,10 @@ const ProudctsList = () => {
                             </button>
                         </td>
                     </tr>
+                    </tbody>
                 )
             })}
-        </tbody>
+        </>
     );
 };
 
