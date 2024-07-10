@@ -2,7 +2,7 @@ import { useContext } from 'react';
 import { Nav, NavItem, Table } from "reactstrap";
 import { PRODUCTS } from '../../app/assets/shared/PRODUCTS';
 import { ShopContext } from '../../app/context/shop-context';
-import { NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom';
 import CartItem from './cartItem';
 
 const CartList = () => {
@@ -14,12 +14,14 @@ const CartList = () => {
             <h1 className='adjustCartText'>
                 Cart Items
             </h1>
-            <Table className='adjustCartText'>
+            <Table>
+                <div className='price-border'>
                 {PRODUCTS.map((product) => {
                     if (cartItems[product.id] !== 0) {
                         return <CartItem data={product} />
                     }
                 })}
+                </div>
             </Table>
             <h3 className='adjustCartText'>
                 Total: ${totalAmount}

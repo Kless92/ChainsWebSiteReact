@@ -5,6 +5,7 @@ function BackToTopButton() {
     const [backToTopButton, setBackToTopButton] = useState(false);
 
     useEffect(() => {
+        
         window.addEventListener("scroll", () => {
             if(window.scrollY > 500) {
                 setBackToTopButton(true)
@@ -27,7 +28,7 @@ function BackToTopButton() {
             <button className='fa fa-arrow-up fa-lg'
             style={{
                 position: "fixed", 
-                bottom: "200px", 
+                bottom: "10px", 
                 right: "100px", 
                 height: "75px", 
                 width: "75px", 
@@ -35,5 +36,6 @@ function BackToTopButton() {
             }} onClick={scrollUp}/>
         )}
     </div>;
+    
 }
 export default BackToTopButton
