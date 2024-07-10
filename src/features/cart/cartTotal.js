@@ -4,12 +4,12 @@ const CartTotal = (props) => {
     const {name, price} = props.data
 
     return(
-        <Table>
+        <Table >
             <tr>
-                <td>
+                <td align="left">
                     {name}
                 </td>
-                <td>
+                <td align="right">
                     {price}
                 </td>
             </tr>

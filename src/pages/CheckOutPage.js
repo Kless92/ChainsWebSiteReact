@@ -10,11 +10,11 @@ const Checkout = () => {
     const tax = saleTax()
     const secondTotal = afterTax()
     return (
-        <Container style={{background:'gray'}}>
+        <Container>
             <h3> Billing Address</h3>
             <h4>**Postage will be determined once the order is assembled.  The cost of postage will be added to the invoice** </h4>
                 {/*Col One Full name and billing address*/}
-                <Row style={{border:'solid'}}>
+                <Row>
                     <Col className='billingAllign' sm='4' md ='4' lg='4'>
                         {/*First Name Input*/}
                         <label for="fname"><i class="fa fa-user"></i> First Name:<input name="myInput" placeholder="First Name"/></label>
@@ -50,8 +50,9 @@ const Checkout = () => {
                     </Col>
                 </Row>
                 {/*Col Three Total cost; including tax and shipping*/}
-                <Row style={{border:'solid'}}>
-                    <Col className='billingAllign' sm='6' md ='6' lg='6'>
+                <Row>
+                    <Col lg='3'></Col>
+                    <Col className='billingAllign' sm='6' md ='6' lg='3'>
                         <div className='cartItems'>
                             {PRODUCTS.map((product) =>{
                                 if (cartItems[product.id] !== 0){
@@ -59,34 +60,34 @@ const Checkout = () => {
                                 }
                             })}
                         </div>
+                    </Col>
+                    <Col className='billingAllign'sm='6' md ='6' lg='3'>
                         <Table>
                             <tr>
-                                <td>
+                                <td align='left'>
                                     Total: 
                                 </td>
-                                <td>
+                                <td align='right'>
                                     ${totalAmount}
                                 </td>
                             </tr>
-                        </Table>                       
-                    </Col>
-                    <Col className='billingAllign'sm='6' md ='6' lg='6'>
+                        </Table>  
                         <Table>
                             <tr>
-                                <td>
+                                <td align='left'>
                                     Tax:
                                 </td>
-                                <td>
+                                <td align='right'>
                                     ${tax}
                                 </td>
                             </tr>
                         </Table>
                         <Table>
                             <tr>
-                                <td>
+                                <td align='left'>
                                     Subtotal:
                                 </td>
-                                <td>
+                                <td align='right'>
                                     ${secondTotal}
                                 </td>
                             </tr>
@@ -96,10 +97,10 @@ const Checkout = () => {
                         </tr>*/}
                         <Table>
                             <tr>
-                                <td>
+                                <td align='left'>
                                     Total:
                                 </td>
-                                <td>
+                                <td align='right'>
                                     ${secondTotal}
                                 </td>
                             </tr>

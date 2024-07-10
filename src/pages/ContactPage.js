@@ -3,8 +3,8 @@ import { Container, Table } from "reactstrap";
 const Contact = () => {
     return (
         <Container>
-            <Table>
-                <thead>
+            <Table style={{border: '10px solid', margin: '20px auto'}}>
+                <thead >
                     <tr>
                         <td>Physical Address</td>
                         <td>Contact</td>
