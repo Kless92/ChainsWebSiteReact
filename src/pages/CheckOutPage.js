@@ -13,6 +13,7 @@ const Checkout = () => {
         <Container>
             <h3> Billing Address</h3>
             <h4>**Postage will be determined once the order is assembled.  The cost of postage will be added to the invoice** </h4>
+            <h4>**Postage will be added to invoice that's included in you order**</h4>
                 {/*Col One Full name and billing address*/}
                 <Row>
                     <Col className='billingAllign' sm='4' md ='4' lg='4'>
