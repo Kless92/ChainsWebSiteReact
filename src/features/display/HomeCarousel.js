@@ -174,7 +174,8 @@ class HomeCarousel extends Component {
 
   render() {
     const { activeIndex } = this.state;
-
+    const isDesktop = this.state.isDesktop;
+    
     const slides = items.map((item) => {
       return (
         <CarouselItem
@@ -189,21 +190,23 @@ class HomeCarousel extends Component {
     });
 
     return (
+      <div style={{}}>
       <Carousel
         activeIndex={activeIndex}
         next={this.next}
         previous={this.previous}
         data-bs-theme="dark"
+        style={{border: 'solid'}}
       >
         {/*CarouslIndicator is the dotted line that each dote is every picer in array */}
         {/*<CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={this.goToIndex} />*/}
         {slides}
-        <CarouselControl direction="prev" directionText="Previous" onClickHandler={this.previous} />
-        <CarouselControl direction="next" directionText="Next" onClickHandler={this.next} />
+        <CarouselControl direction="prev" directionText="Previous" onClickHandler={this.previous}/>
+        <CarouselControl direction="next" directionText="Next" onClickHandler={this.next}/>
       </Carousel>
+      </div>
     );
   }
 }
-
 
 export default HomeCarousel;
