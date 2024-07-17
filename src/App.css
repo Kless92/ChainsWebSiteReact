@@ -51,13 +51,20 @@
 }
 
 /*Carousel*/
-
-
-.carouselSize {
-  width: 300px;
-  height: 500px;
+/*Moblie size*/
+@media (max-width: 720px) {
+  .carouselSize {
+    width: 300px;
+    height: 400px;
+  }
 }
-
+/*Tablet and Desktop size*/
+@media (min-width: 720px) {
+  .carouselSize {
+    width: 400px;
+    height: 500px;
+  }
+}
 
 /*Header*/
 .headBaner {

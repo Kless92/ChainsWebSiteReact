@@ -3,7 +3,7 @@ import {
   Carousel,
   CarouselItem,
   CarouselControl,
-  CarouselIndicators,
+  /*CarouselIndicators,*/
   CarouselCaption
 } from 'reactstrap';
 import imagOne from '../../app/assets/imag/IMG_7885.JPG';
@@ -174,7 +174,6 @@ class HomeCarousel extends Component {
 
   render() {
     const { activeIndex } = this.state;
-    const isDesktop = this.state.isDesktop;
     
     const slides = items.map((item) => {
       return (
@@ -196,7 +195,6 @@ class HomeCarousel extends Component {
         next={this.next}
         previous={this.previous}
         data-bs-theme="dark"
-        style={{border: 'solid'}}
       >
         {/*CarouslIndicator is the dotted line that each dote is every picer in array */}
         {/*<CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={this.goToIndex} />*/}

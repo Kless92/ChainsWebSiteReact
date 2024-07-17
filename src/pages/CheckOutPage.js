@@ -16,31 +16,31 @@ const Checkout = () => {
             <h4>**Postage will be added to invoice that's included in you order**</h4>
                 {/*Col One Full name and billing address*/}
                 <Row>
-                    <Col className='billingAllign' sm='4' md ='4' lg='4'>
+                    <Col className='billingAllign' sm='12' md ='4' lg='4'>
                         {/*First Name Input*/}
-                        <label for="fname"><i class="fa fa-user"></i> First Name:<input name="myInput" placeholder="First Name"/></label>
+                        <label for="fname"><i class="fa fa-user"></i> First Name: <input name="myInput" placeholder="First Name"/></label>
                     </Col>
-                    <Col  className='billingAllign' sm='4' md ='4'  lg='4'>
-                        {/*Billing Address Input*/}
-                        <label for="fname"><i class="fa fa-address-book"></i> Billing Address:<input name="myInput" placeholder="Billing Address"/></label>          
+                    <Col className='billingAllign'sm='12' md ='4' lg='4'>
+                        {/*Last Name Input*/}
+                        <label for="fname"><i class="fa-regular fa-user"></i> Last Name: <input name="myInput" placeholder="Last Name"/></label>
                     </Col>
-                    <Col  className='billingAllign' sm='4' md ='4'  lg='4'>
+                    <Col  className='billingAllign' sm='12' md ='4'  lg='4'>
                         {/*Phone Number Input*/}
-                        <label for="fname"><i class="fa fa-phone"></i> Phone Number:<input name="myInput" placeholder="Phone Number"/></label>
+                        <label for="fname"><i class="fa fa-phone"></i> Phone Number: <input name="myInput" placeholder="Phone Number"/></label>
                     </Col>
                 </Row>
                 {/*Col Two Shipping, phon # and Venmo*/}
                 <Row>
-                    <Col className='billingAllign'sm='4' md ='4' lg='4'>
-                        {/*Last Name Input*/}
-                        <label for="fname"><i class="fa-regular fa-user"></i> Last Name:<input name="myInput" placeholder="Last Name"/></label>
-                    </Col>
-                    <Col className='billingAllign'sm='4' md ='4' lg='4'>
+                    <Col className='billingAllign'sm='12' md ='4' lg='4'>
                         {/*Shipping Address Input*/}
-                        <label for="fname"><i class="fa-regular fa-address-book"></i> Shipping Address:<input name="myInput" placeholder="Shipping Address"/></label>
+                        <label for="fname"><i class="fa-regular fa-address-book"></i> Shipping Address: <input name="myInput" placeholder="Shipping Address"/></label>
                     </Col>
-                    <Col className='billingAllign'sm='4' md ='4' lg='4'>
-                        <h4>Venmo: 
+                    <Col  className='billingAllign' sm='12' md ='4'  lg='4'>
+                        {/*Billing Address Input*/}
+                        <label for="fname"><i class="fa fa-address-book"></i> Billing Address: <input name="myInput" placeholder="Billing Address"/></label>          
+                    </Col>
+                    <Col className='billingAllign'sm='12' md ='4' lg='4'>
+                        <h4>Venmo:
                             <a
                                 className='btn btn-social-icon btn-info'
                                 href=''
