@@ -6,7 +6,7 @@ import Logo from '../app/assets/imag/image2.png';
 const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false);
     return (
-        <Navbar dark color='primary'  expand='md' >
+        <Navbar dark expand='md' color='primary'>
             <Row className='headBaner'>
                 <Col xs={12} sm={12} md={11} lg={10} xl={7}>
                     <NavbarBrand href='/' >
